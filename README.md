@@ -8,7 +8,14 @@ Source control software operate within two paradigms, centralised, and distribut
 Source control that is centralised such as SVN employs a central repository to store all files for
 collaborative file sharing.  In a centralised system such as SVN, a server is employed to holds all versions of the files. 
 Typically, a developer employs a "check-out" operation, to download the files from the server on to our local machine.
-This creates a "working copy", and employs a "check-in" to synchronise with the server from the local machine 
+This creates a "working copy", and employs a "commit" to synchronise with the server from the local machine
+A team employing a centralised system such as SVN, shares the same repository, but everyone has their own working copy on their machines. 
+When one person commits a change, everyone else can perform an "update" to get the latest changes and apply them to their local working copy.
+A distributed system such as Git differs in that there is no centralised repository. The centralised repository is on each developers local machine,
+the "working copy", and the “index”. The index is a staging area where we gather our changes before committing them.
+As with all software tools, interacting with the software in an effective manner requires the use of commands.
+It is the knowledge, and experience in using these commands, that a DevOps, software engineer should aim to understand,
+and express effectively in their daily duties.
 
 ## What is GitHub
 Git is software for tracking changes in any set of files, usually used for coordinating work among 
