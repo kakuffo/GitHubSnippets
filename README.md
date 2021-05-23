@@ -1,5 +1,6 @@
 # GitHub Snippets
 
+## What is GitHub
 I am of the view that skill, the ability to do something well, is essential when one has the experience, 
 and knowledge, as skill is what allows one to express the experience and knowledge that one possesses. 
 This folder will contain the Git command snippets that I employ and express for daily work. Git is a free 
@@ -17,16 +18,13 @@ The index is a staging area where we gather our changes before committing them. 
 interacting with the software effectively requires the use of commands. It is the knowledge, and experience 
 in using these commands, that a DevOps, software engineer should aim to understand, and express effectively 
 in their daily duties.
-
-## What is GitHub
 Git is software for tracking changes in any set of files, usually used for coordinating work among 
 software engineers involved in collaboratively developing. Its goals include 
 speed, data integrity, and support for distributed, non-linear workflows.
 Git is now that
 
 ### Getting Help
-If you ever need help while using Git, there are three equivalent ways to get the comprehensive manual page (manpage) 
-help for any of the Git commands:
+If you need help while using Git, access to a comprehensive manual page is vailable via the commands below. 
 
 ```shell
 $ git help <verb>
@@ -35,54 +33,60 @@ $ man git-<verb>
 ```
 ### Setup and Config
 
-git
-config
-help
-bugreport
+#### git
+#### config
+#### help
+#### bugreport
+
 ### Getting and Creating Projects
-init
-clone
+#### init
+#### clone
+
 ### Basic Snapshotting
-add
-status
-diff
-commit
-notes
-restore
-reset
-rm
-mv
+#### add
+#### status
+#### diff
+#### commit
+#### notes
+#### restore
+#### reset
+#### rm
+#### mv
+
 ### Branching and Merging
-branch
-checkout
-switch
-merge
-mergetool
-log
-stash
-tag
-worktree
+#### branch
+#### checkout
+#### switch
+#### merge
+#### mergetool
+#### log
+#### stash
+#### tag
+#### worktree
+
 ### Sharing and Updating Projects
-fetch
-pull
-push
-remote
-submodule
+#### fetch
+#### pull
+#### push
+#### remote
+#### submodule
+
 ### Inspection and Comparison
-show
-log
-diff
-difftool
-range-diff
-shortlog
-describe
+#### show
+#### log
+#### diff
+#### difftool
+#### range-diff
+#### shortlog
+#### describe
+
 ### Patching
-apply
-cherry-pick
-diff
-rebase
-revert
-Debugging
-bisect
-blame
-grep
+#### apply
+#### cherry-pick
+#### diff
+#### rebase
+#### revert
+#### Debugging
+#### bisect
+#### blame
+#### grep
