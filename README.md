@@ -1,11 +1,15 @@
 # GitHub Snippets
 
 I am of the view that skill, the ability to do something well, is essential 
-when one has experience, and knowledge as skill is what allows one to express the experience and 
-knowledge that one possesses.
-This folder will contain the gitHub command snippets that i employ
-and express for daily work.
-it is the free and open source distributed version control system that's responsible for everything 
+when one has experience, and knowledge, as skill is what allows one to express the experience and 
+knowledge that one possesses. This folder will contain the gitHub command snippets that I employ
+and express for daily work. Git is a free and open source distributed version control system that's responsible for everything.
+Source control software operate within two paradigms, centralised, and distributed.
+Source control that is centralised such as SVN employs a central repository to store all files for
+collaborative file sharing.  In a centralised system such as SVN, a server is employed to holds all versions of the files. 
+Typically, a developer employs a "check-out" operation, to download the files from the server on to our local machine.
+This creates a "working copy", and employs a "check-in" to synchronise with the server from the local machine 
+
 ## What is GitHub
 Git is software for tracking changes in any set of files, usually used for coordinating work among 
 software engineers involved in collaboratively developing. Its goals include 
